@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/szszzfa_img"
+        android:layout_width="150dp"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:id="@+id/szszzfa_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:text="少年的你"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="90dp"
+        android:textColor="#fff"
+        android:text="导演：" />
+
+    <TextView
+        android:id="@+id/szszzfa_daoyan"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="90dp"
+        android:text="aaa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#fff"
+        android:text="演员：" />
+
+    <TextView
+        android:id="@+id/szszzfa_yanyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#fff"
+        android:text="aaa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:textColor="#fff"
+        android:layout_marginTop="150dp"
+        android:text="评分：" />
+
+    <TextView
+        android:id="@+id/szszzfa_pingfen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:textColor="#fff"
+        android:layout_marginTop="150dp"
+        android:text="aaa" />
+</RelativeLayout>
